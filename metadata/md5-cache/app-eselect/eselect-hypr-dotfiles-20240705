@@ -1,0 +1,14 @@
+BDEPEND=test? ( >=dev-util/shellspec-0.28.1 )
+DEFINED_PHASES=install
+DEPEND=app-admin/eselect
+DESCRIPTION=A customizable and extensible shell
+EAPI=8
+HOMEPAGE=https://github.com/beatussum/eselect-hypr-dotfiles/
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=app-admin/eselect
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/beatussum/eselect-hypr-dotfiles/archive/refs/tags/20240705.tar.gz -> eselect-hypr-dotfiles-20240705.tar.gz
+_md5_=110feaffcf1f2a466d0ae9e17196dd93
