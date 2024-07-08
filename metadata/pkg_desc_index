@@ -8,3 +8,4 @@ hypr-apps/hypridle 0.1.2 9999: Hyprland's idle daemon
 hypr-apps/hyprlock 0.4.0 9999: Hyprland's GPU-accelerated screen locking utility
 hypr-apps/hyprpicker 0.3.0 9999: A wlroots-compatible Wayland color picker that does not suck
 x11-misc/pywal 3.3.0: Generate and change color-schemes on the fly
+x11-themes/adw-gtk3 5.3 9999: The theme from libadwaita ported to GTK-3
