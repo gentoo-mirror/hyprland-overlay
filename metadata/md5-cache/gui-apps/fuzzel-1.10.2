@@ -1,0 +1,17 @@
+BDEPEND=app-text/scdoc >=dev-build/meson-0.58.0 >=dev-libs/tllist-1.0.1 >=dev-libs/wayland-protocols-1.32 dev-util/wayland-scanner >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/expat dev-libs/glib:2 dev-libs/libffi:= dev-libs/libpcre2:= dev-libs/libutf8proc:= dev-libs/wayland media-gfx/graphite2 >=media-libs/fcft-3.0.0 <media-libs/fcft-4.0.0 media-libs/fontconfig:1.0 media-libs/freetype:2 media-libs/harfbuzz:= media-libs/libpng:= sys-libs/zlib:= x11-libs/libxkbcommon x11-libs/pixman cairo? ( x11-libs/cairo x11-libs/libX11 x11-libs/libXau x11-libs/libxcb x11-libs/libXdmcp x11-libs/libXext x11-libs/libxkbcommon x11-libs/libXrender ) png? ( media-libs/libpng:= ) svg? ( !nanosvg? ( dev-libs/fribidi dev-libs/icu:= dev-libs/libxml2:2 media-libs/libjpeg-turbo:= gnome-base/librsvg:2 x11-libs/gdk-pixbuf:2 x11-libs/pango ) )
+DESCRIPTION=Application launcher for wlroots based Wayland compositors
+EAPI=8
+HOMEPAGE=https://codeberg.org/dnkl/fuzzel/
+INHERIT=meson
+IUSE=cairo +nanosvg +png +svg
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/expat dev-libs/glib:2 dev-libs/libffi:= dev-libs/libpcre2:= dev-libs/libutf8proc:= dev-libs/wayland media-gfx/graphite2 >=media-libs/fcft-3.0.0 <media-libs/fcft-4.0.0 media-libs/fontconfig:1.0 media-libs/freetype:2 media-libs/harfbuzz:= media-libs/libpng:= sys-libs/zlib:= x11-libs/libxkbcommon x11-libs/pixman cairo? ( x11-libs/cairo x11-libs/libX11 x11-libs/libXau x11-libs/libxcb x11-libs/libXdmcp x11-libs/libXext x11-libs/libxkbcommon x11-libs/libXrender ) png? ( media-libs/libpng:= ) svg? ( !nanosvg? ( dev-libs/fribidi dev-libs/icu:= dev-libs/libxml2:2 media-libs/libjpeg-turbo:= gnome-base/librsvg:2 x11-libs/gdk-pixbuf:2 x11-libs/pango ) )
+REQUIRED_USE=nanosvg? ( svg ) !nanosvg? ( svg? ( cairo ) )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://codeberg.org/dnkl/fuzzel/archive/1.10.2.tar.gz -> fuzzel-1.10.2.tar.gz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	meson	99466844dd8d4fcfb07578a76f5a9922
+_md5_=b453462b28e1fd1bd7140113e0f6a894
