@@ -9,5 +9,6 @@ gui-libs/ags 1.8.2-r2: A customizable and extensible shell
 hypr-apps/hypridle 0.1.2 9999: Hyprland's idle daemon
 hypr-apps/hyprlock 0.4.0 9999: Hyprland's GPU-accelerated screen locking utility
 hypr-apps/hyprpicker 0.3.0 9999: A wlroots-compatible Wayland color picker that does not suck
+media-fonts/nerdfonts 3.2.1: Popular programming fonts with the addition of a bunch of glyphs
 x11-misc/pywal 3.3.0: Generate and change color-schemes on the fly
 x11-themes/adw-gtk3 5.3 9999: The theme from libadwaita ported to GTK-3
