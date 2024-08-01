@@ -3,4 +3,10 @@
 # * generated automatically using pmaint *
 
 gui-apps/fuzzel:nanosvg - Use the built-in media-libs/nanosvg header as SVG backend
+gui-apps/yad:deprecated - Build with deprecated options
+gui-apps/yad:icon-browser - Build icon browser
+gui-apps/yad:sourceview - Enable x11-libs/gtksourceview support
+gui-apps/yad:standalone - Build standalone binary (without gsettings)
+gui-apps/yad:tools - Build yad-tools utility
+gui-apps/yad:tray - Build with status icon
 x11-themes/adw-gtk3:dark - Enable dark mode
