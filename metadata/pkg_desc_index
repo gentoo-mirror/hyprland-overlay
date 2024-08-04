@@ -4,6 +4,7 @@ app-misc/cliphist 0.5.0: Wayland clipboard manager with support for multimedia
 dev-python/material-color-utilities 0.1.5 9999: Python port of material-color-utilities used for Material You colors
 dev-util/shellspec 0.28.1-r2 9999: A full-featured BDD unit testing framework for all POSIX shells
 gui-apps/fuzzel 1.10.2 9999: Application launcher for wlroots based Wayland compositors
+gui-apps/gradience 0.4.1: Change the look of Adwaita with ease
 gui-apps/wlogout 1.2.2 9999: A wayland based logout menu
 gui-apps/yad 14.1 9999: Display GTK+ dialog boxes from command line or shell scripts
 gui-libs/ags 1.8.2-r2: A customizable and extensible shell
