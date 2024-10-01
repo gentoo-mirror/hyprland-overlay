@@ -1,7 +1,8 @@
 app-eselect/eselect-hypr-dotfiles 20240705: A customizable and extensible shell
 app-misc/brightnessctl 0.5.1-r1 0.5.1-r2: A program to read and control device brightness
 app-misc/cliphist 0.5.0: Wayland clipboard manager with support for multimedia
-dev-python/material-color-utilities 0.1.5 9999: Python port of material-color-utilities used for Material You colors
+dev-python/material-color-utilities-python 0.1.5 9999: Python port of material-color-utilities used for Material You colors
+dev-python/materialyoucolor 2.0.9: Material You color generation algorithms in python
 dev-util/shellspec 0.28.1-r2 0.28.1-r3 9999: A full-featured BDD unit testing framework for all POSIX shells
 gui-apps/ags 1.8.2-r2 1.8.2-r3: A customizable and extensible shell
 gui-apps/fuzzel 1.10.2 9999: Application launcher for wlroots based Wayland compositors
@@ -12,8 +13,12 @@ gui-apps/yad 14.1 9999: Display GTK+ dialog boxes from command line or shell scr
 hypr-apps/hypridle 0.1.2 9999: Hyprland's idle daemon
 hypr-apps/hyprlock 0.4.0 9999: Hyprland's GPU-accelerated screen locking utility
 hypr-apps/hyprpicker 0.3.0 9999: A wlroots-compatible Wayland color picker that does not suck
+hypr-dotfiles/illogical-impulse 9999: Modern, feature-rich and accessible desktop configuration
 media-fonts/nerdfonts 3.2.1: Popular programming fonts with the addition of a bunch of glyphs
+media-fonts/readexpro 9999: Readex Pro is the world-script expansion of Lexend
+media-fonts/rubik 9999: A five weight Roman and Italic family
 sys-apps/xdg-desktop-portal-hyprland 1.3.3 9999: xdg-desktop-portal backend for hyprland
 x11-misc/pywal 3.3.0: Generate and change color-schemes on the fly
 x11-themes/adw-gtk3 5.3 9999: The theme from libadwaita ported to GTK-3
 x11-themes/bibata-xcursors 2.0.7: Opensource, compact, and material-designed cursor set
+x11-themes/oneui4-icons 9999: One UI Icons for Linux
